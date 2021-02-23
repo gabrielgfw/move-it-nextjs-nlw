@@ -5,6 +5,9 @@ import Document, { Html, Head, Main, NextScript } from 'next/document';
 // Este arquivo também tem a vantagem de ser chamado apenas uma única vez,
 // independentemente da quantidade de acessos que o client faça.
 
+// Main chama o restante da aplicação.
+// NextScript acrescenta arquivos de scripts próprios do NextJs.
+
 export default class MyDocument extends Document {
   render() {
     return (
