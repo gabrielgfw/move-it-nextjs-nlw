@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+}
+
 :root {
   --white: #fff;
   --background: #F2F3F5;
